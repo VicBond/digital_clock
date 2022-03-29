@@ -4,8 +4,9 @@ const tick = () => {
   const now = new Date();
 
   const hours = now.getHours();
-
-  console.log(hours);
+  const minutes = now.getMinutes();
+  const seconds = now.getSeconds();
+  // console.log(hours, minutes, seconds);
 };
 
 setInterval(tick, 1000);
