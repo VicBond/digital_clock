@@ -8,8 +8,8 @@ const tick = () => {
   const seconds = now.getSeconds();
   // console.log(hours, minutes, seconds);
   const html = `
-  <span>${hours}</span>
-  <span>${minutes}</span>
+  <span>${hours}</span> :
+  <span>${minutes}</span> :
   <span>${seconds}</span>
   `;
 
