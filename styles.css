@@ -2,10 +2,13 @@ body {
   background: #333;
 }
 .clock {
-  font-size: 4em;
+  font-size: 15em;
   text-align: center;
-  margin: 20px auto;
+  margin: 200px auto;
   color: yellow;
   font-family: arial,sans-serif;
-  
+}
+.clock span {
+  padding: 20px;
+  background: #444;
 }
